@@ -7,14 +7,14 @@
   <body>
 
     <?php
-      $characterName = "John" ;
-      $characterAge = 35 ;
-      echo "There once was a man named $characterName <br>";
-      echo "He was $characterAge years old <br>";
-      $characterName = "Tom" ;
-      $characterAge = 50 ;
-      echo "He really liked the name $characterName <br>";
-      echo "But didn't like being $characterAge <br>";
+      $phrase = "To be or not to be";
+      $age = 30;
+      $gpa = 32.9;
+      $isMale = true;
+      echo $phrase ,"<br>";
+      echo $age ,"<br>";
+      echo $gpa ,"<br>";
+      echo $isMale ,"<br>";
     ?>
 
   </body>
